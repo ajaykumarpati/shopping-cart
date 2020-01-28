@@ -1,0 +1,68 @@
+[
+  {
+    "customerType": "Regular",
+    "discounts": [
+      {
+        "discountPercentage": "0",
+        "discountSlab": {
+          "upperLimit": "5000",
+          "lowerLimit": "0",
+          "uom": "USD"
+        }
+      },
+      {
+        "discountPercentage": "10",
+        "discountSlab": {
+          "upperLimit": "10000",
+          "lowerLimit": "5000",
+          "uom": "USD"
+        }
+      },
+      {
+        "discountPercentage": "20",
+        "discountSlab": {
+          "upperLimit": null,
+          "lowerLimit": "10000",
+          "uom": "USD"
+        }
+      }
+    ]
+  },
+  {
+    "customerType": "Premium",
+    "discounts": [
+      {
+        "discountPercentage": "10",
+        "discountSlab": {
+          "upperLimit": "4000",
+          "lowerLimit": "0",
+          "uom": "USD"
+        }
+      },
+      {
+        "discountPercentage": "15",
+        "discountSlab": {
+          "upperLimit": "8000",
+          "lowerLimit": "4000",
+          "uom": "USD"
+        }
+      },
+      {
+        "discountPercentage": "20",
+        "discountSlab": {
+          "upperLimit": "12000",
+          "lowerLimit": "8000",
+          "uom": "USD"
+        }
+      },
+      {
+        "discountPercentage": "30",
+        "discountSlab": {
+          "upperLimit": null,
+          "lowerLimit": "12000",
+          "uom": "USD"
+        }
+      }
+    ]
+  }
+]
